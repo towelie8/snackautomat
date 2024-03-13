@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Automaten für jeden Spaß</title>
+    <!-- Bootstrap CSS -->
+    <link href="css/bootstrap.css" rel="stylesheet" />
+    <!-- Custom CSS -->
+    <link href="css/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <header class="py-3 mb-4 border-bottom">
+      <div class="container d-flex flex-wrap justify-content-center">
+        <a
+          href="/"
+          class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-dark text-decoration-none"
+        >
+          <span class="fs-4">Automatenwelt</span>
+        </a>
+        <ul class="nav nav-pills">
+          <li class="nav-item">
+            <a href="#" class="nav-link active" aria-current="page">Home</a>
+          </li>
+          <li class="nav-item">
+            <a href="#products" class="nav-link">Produkte</a>
+          </li>
+          <li class="nav-item">
+            <a href="#contact" class="nav-link">Kontakt</a>
+          </li>
+        </ul>
+      </div>
+    </header>
+
+    <main>
+      <section class="text-center container">
+        <div class="row py-lg-5">
+          <div class="col-lg-10 col-md-8 mx-auto">
+            <h1 class="fw-light">Willkommen in der Welt der Automaten</h1>
+            <p class="lead text-muted">
+              Entdecken Sie unsere hochwertigen Snackautomaten, Tischkicker,
+              Kirmesautomaten und Airhockey-Tables.
+            </p>
+            <p>
+              <a href="#" class="btn btn-primary my-2">Mehr erfahren</a>
+              <a href="#contact" class="btn btn-secondary my-2"
+                >Kontakt aufnehmen</a
+              >
+            </p>
+          </div>
+        </div>
+      </section>
+
+      <div class="py-5 bg-light">
+        <div class="container">
+          <h2 class="pb-2 border-bottom">Unsere Produkte</h2>
+          <!-- Produktsektionen hier -->
+        </div>
+      </div>
+
+      <section class="wave-background" id="contact">
+        <div class="container">
+          <h2>Kontaktieren Sie uns</h2>
+          <form action="contact.php" method="post">
+            <div class="mb-3">
+              <label for="name" class="form-label">Name</label>
+              <input
+                type="text"
+                class="form-control"
+                id="name"
+                name="name"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="email" class="form-label">E-Mail</label>
+              <input
+                type="email"
+                class="form-control"
+                id="email"
+                name="email"
+                required
+              />
+            </div>
+            <div class="mb-3">
+              <label for="message" class="form-label">Nachricht</label>
+              <textarea
+                class="form-control"
+                id="message"
+                name="message"
+                rows="3"
+                required
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary">Senden</button>
+          </form>
+        </div>
+      </section>
+    </main>
+
+    <footer class="text-muted py-5">
+      <div class="container">
+        <p class="float-end mb-1">
+          <a href="#">Nach oben</a>
+        </p>
+        <p class="mb-1">Automatenwelt &copy; Ihr Portal für Spaßautomaten</p>
+      </div>
+    </footer>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="assets/js/bootstrap.bundle.min.js"></script>
+  </body>
+</html>

@@ -1,0 +1,25 @@
+{
+  "name": "snackautomat",
+  "version": "1.0.0",
+  "description": "website-koc-automatensteller",
+  "main": "index.js",
+  "scripts": {
+    "sass:build": "sass --no-source-map scss:css",
+    "sass:watch": "sass --no-source-map --watch scss:css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/towelie8/snackautomat.git"
+  },
+  "author": "Maximilian Becker",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/towelie8/snackautomat/issues"
+  },
+  "homepage": "https://github.com/towelie8/snackautomat#readme",
+  "dependencies": {
+    "@fortawesome/fontawesome-free": "^6.5.1",
+    "bootstrap": "^5.3.2",
+    "sass": "^1.71.1"
+  }
+}
